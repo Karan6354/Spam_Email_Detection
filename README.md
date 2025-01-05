@@ -44,6 +44,7 @@ This project focuses on detecting spam emails using machine learning techniques.
 - **Tokenization**: Text was split into individual tokens (words) for further processing.
 - **Removal of Special Characters**: Non-alphanumeric characters were removed to clean the data.
 - **Stop Words and Punctuation Removal**: Common stop words and punctuation marks were removed to focus on meaningful content.
+- **TF-IDF Transformation**: The Term Frequency-Inverse Document Frequency (TF-IDF) technique was applied to convert textual data into numerical vectors.
 
 These preprocessing steps helped improve the quality of the dataset and enhance the performance of the model.
 
@@ -86,6 +87,10 @@ Visit the web application: [Spam Email Detection Web App](https://spam-email-det
     <li><a href="https://www.python.org/">Python</a></li>
     <li><a href="https://pandas.pydata.org/">Pandas</a></li>
     <li><a href="https://scikit-learn.org/">Scikit-learn</a></li>
+    <li><a href="https://www.nltk.org/">NLTK (Natural Language Toolkit)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">TF-IDF</a></li>
+    <li><a href="https://matplotlib.org/">Matplotlib</a></li>
+    <li><a href="https://seaborn.pydata.org/">Seaborn</a></li>
     <li><a href="https://flask.palletsprojects.com/">Flask</a></li>
     <li><a href="https://render.com/">Render</a></li>
   </ul>
@@ -104,13 +109,16 @@ Karan Khatri - [LinkedIn](https://www.linkedin.com/in/karan-r-khatri/)
 Project Link: [Spam_Email_Detection](https://github.com/Karan6354/Spam_Email_Detection)
 
 
-<!-- Acknowledgments -->
+<!-- Acknowledgements -->
 ## Acknowledgements
 
 I would like to thank the following resources that have made this project possible:
 
 - **[Scikit-learn (sklearn)](https://scikit-learn.org/)**: This powerful machine learning library provided essential tools for implementing and evaluating our models.
 - **[Pandas](https://pandas.pydata.org/)**: Pandas was crucial for data manipulation and analysis. Its data structures and functions for working with structured data allowed efficient data cleaning and preprocessing.
+- **[NLTK (Natural Language Toolkit)](https://www.nltk.org/)**: NLTK provided tools for natural language processing, including tokenization and stop word removal.
+- **[TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)**: The TF-IDF technique was crucial for vectorizing the text data for model input.
+- **[Matplotlib](https://matplotlib.org/)** and **[Seaborn](https://seaborn.pydata.org/)**: These libraries were used for data visualization and exploratory data analysis.
 - **[Flask](https://flask.palletsprojects.com/)**: This lightweight web framework was used to build the application's backend.
 - **[Render](https://render.com/)**: Render's deployment platform enabled smooth and reliable hosting of our web application.
 
