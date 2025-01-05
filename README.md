@@ -56,7 +56,7 @@ These preprocessing steps helped improve the quality of the dataset and enhance 
 ### Evaluation
 
 - The model's performance is evaluated using the following metrics:
-  - **Accuracy**: 99.3563% (to be updated)
+  - **Accuracy**: 99.3563%
   - **Precision**: 98.8010%
   - **Recall**: 98.5646%
   - **F1 Score**: 98.6826%
