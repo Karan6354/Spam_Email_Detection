@@ -1,6 +1,6 @@
 <div align="">
 
-  <h1>Email Spam Detection</h1>
+  <h1><a href="https://spam-email-detection-0sef.onrender.com" target="_blank">Email Spam Detection</a></h1>
   
   <p>
     A machine learning-based project to detect spam emails with a deployed web application for easy use.
