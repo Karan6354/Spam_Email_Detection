@@ -12,7 +12,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 # Initialize the Flask app
-app = Flask(__name__)
+app = Flask("app")
 
 # Load the pre-trained SVM model (assumes the model has already been trained and saved)
 model_path = 'model/spam_svm_model.pkl'
