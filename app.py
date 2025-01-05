@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import pickle
+import os
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
@@ -12,7 +13,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 # Initialize the Flask app
-app = Flask("app")
+app = Flask(__name__)
 
 # Load the pre-trained SVM model (assumes the model has already been trained and saved)
 model_path = 'model/spam_svm_model.pkl'
@@ -67,4 +68,4 @@ def index():
     return render_template('index.html', result=None)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
