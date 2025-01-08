@@ -48,6 +48,9 @@ This project focuses on detecting spam emails using machine learning techniques.
 
 These preprocessing steps helped improve the quality of the dataset and enhance the performance of the model.
 
+### Model Code
+
+You can find the complete code for training the model and further details on data processing and model training in the following [Jupyter Notebook](https://github.com/Karan6354/Spam_Email_Detection/blob/main/Email_Spam_Detection.ipynb).
 
 ### Model Training
 
