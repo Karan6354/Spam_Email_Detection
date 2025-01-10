@@ -52,6 +52,9 @@ These preprocessing steps helped improve the quality of the dataset and enhance 
 
 You can find the complete code for training the model and further details on data processing and model training in the following [Jupyter Notebook](https://github.com/Karan6354/Spam_Email_Detection/blob/main/Email_Spam_Detection.ipynb).
 
+Additionally, you can find the complete code for testing spam email detection model on your dataset [Jupyter Notebook](https://github.com/Karan6354/Spam_Email_Detection/blob/main/Spam_Email_Dataset_Testing_Code.ipynb).
+
+
 ### Model Training
 
 - A machine learning model is trained to classify emails as spam or not spam.
